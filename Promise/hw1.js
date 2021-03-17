@@ -35,6 +35,7 @@ promise3
     console.log(failure);
     });
 
+
 Promise.all([promise3, promise4, promise5])
     .then((success) => {
     console.log(success);
